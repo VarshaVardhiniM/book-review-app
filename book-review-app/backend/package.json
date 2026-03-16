@@ -1,5 +1,5 @@
 {
-  "name": "book-review-backend",
+  "name": "bookly-backend",
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "dotenv": "^16.0.0",
     "express": "^4.18.2",
     "jsonwebtoken": "^9.0.0",
-    "mongoose": "^7.0.0"
+    "mongoose": "^7.0.0",
+    "nodemailer": "^8.0.2"
   },
   "devDependencies": {
     "nodemon": "^3.0.0"

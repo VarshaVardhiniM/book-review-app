@@ -32,7 +32,7 @@ mongoose
   .then(() => {
     console.log('MongoDB connected');
     app.listen(process.env.PORT || 5000, () =>
-      console.log(`erver running on port ${process.env.PORT || 5000}`)
+      console.log(`Server running on port ${process.env.PORT || 5000}`)
     );
   })
   .catch(err => { console.error('DB Error:', err); process.exit(1); });
